@@ -22,6 +22,7 @@
 If the server fails to run, follow these steps:
 
 11. Just see the file in `ems_app\management\commands\task.py`.
+    `please check your csv file directory`
 12. Run the custom management command using: `python manage.py task`. This command is used to extract data from the CSV file using pandas.
 13. After running the task, start the server again using: `python manage.py runserver`.
 
